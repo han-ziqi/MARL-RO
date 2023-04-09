@@ -44,8 +44,9 @@ Here is a demo to show the diagram that used in the experiment.
 
 ![Relative overgeneralisation pathology](https://github.com/han-ziqi/PyMARL/raw/main/demo/RO%20happend.jpg)
 
-##  What the experiment has done for me
+##  What I learned from this experiment
 
 1. At the time of the experiments started, PyTorch had just released support for Apple Silicon, and I was actively exploring solutions to various adaptation problems to finalize the experiments.
 2. A valuable experience about getting familiar with a new framework from zero and understanding it.
+3. Experience for development of a plotting program that can extract 5000 data at the same time, adding a 95% confidence interval, and draw them in a diagram
 
