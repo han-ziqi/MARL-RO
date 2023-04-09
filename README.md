@@ -38,6 +38,9 @@ Here is a structure diagram for better understanding PyMARL
 
 A complete experiment takes about two hours. After one experiment has been completed. The results of the experiment are automatically generated in the [sacred folder](https://github.com/han-ziqi/PyMARL/tree/main/results/sacred). I only uploaded five results for display use, while my complete project generated more than two hundred folders. 
 
+The generated data is saved in a file named **info.json**, the raw data is difficult to measure, here is a demo.
+![raw data](https://github.com/han-ziqi/PyMARL/raw/main/demo/Result%20data.png)
+
 I need to extract the test_ep_lenth_mean and test_return_mean from each run to know the effect of this experiment. So I coded my own [plot.py](https://github.com/han-ziqi/PyMARL/blob/main/Plot.py) program to extract these results, calculate them and plot them as a diagram for display.
 
 Here is a demo to show the diagram that used in the experiment.
