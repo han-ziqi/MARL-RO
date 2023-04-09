@@ -24,7 +24,11 @@ PyMARL is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as
 
 ## About this Project
 
+During the multi-agent Reinforcement Learning Process, it might be affected by a pathology called relative overgeneralization (RO). In joint action space, when sub-optimal Nash equilibrium are more preferred than optimal Nash equilibrium, the pathology of RO may occur.
+
 This project used PyMARL framework to setup environment **Matrix Game** and **Predator Prey**, allows multi-agent play games in these environments, to demonstrate the patholog. 
+
+In the experiments, I demonstrated that the two algorithms, VDN and QMIX, were indeed affected by RO. I then made modifications to the two algorithms within this project. Finally relieved the RO pathology.
 
 Here is a structure diagram for better understanding PyMARL
 
