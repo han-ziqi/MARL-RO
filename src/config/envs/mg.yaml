@@ -1,0 +1,14 @@
+# --- Defaults for 4x4 predator prey, 4 agent capture, walls ---
+
+env: "matrix_game"
+
+env_args:
+    capture_action: True
+    
+
+t_max: 110000
+test_nepisode: 16 # Number of episodes to test for
+test_interval: 1000
+runner_log_interval: 1000
+learner_log_interval: 1000
+log_interval: 1000
