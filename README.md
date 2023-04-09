@@ -28,7 +28,7 @@ This project used PyMARL framework to setup environment **Matrix Game** and **Pr
 
 Here is a structure diagram for better understanding PyMARL
 
-![]
+![Pymarl structure](https://github.com/han-ziqi/PyMARL/raw/main/demo/PYMARL.jpg)
 
 - The environment setup in [envs](https://github.com/han-ziqi/PyMARL/tree/main/src/envs)
 
@@ -42,7 +42,7 @@ I need to extract the test_ep_lenth_mean and test_return_mean from each run to k
 
 Here is a demo to show the diagram that used in the experiment.
 
-![]
+![Relative overgeneralisation pathology](https://github.com/han-ziqi/PyMARL/raw/main/demo/RO%20happend.jpg)
 
 ##  What the experiment has done for me
 
