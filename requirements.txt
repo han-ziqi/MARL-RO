@@ -1,0 +1,10 @@
+cloudpickle==2.1.0
+matplotlib==3.5.1
+numpy==1.22.3
+pygame==2.1.2
+PyYAML==6.0
+scipy==1.8.1
+smac==1.4.0
+SMAC.egg==info
+tensorboard_logger==0.1.0
+torch==1.12.0
