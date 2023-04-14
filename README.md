@@ -1,6 +1,6 @@
 ## About this Project
 
-This is my personal research project, utilizes the PyMARL framework to setup environment Matrix Game and Predator Prey, allows multi-agent play games in these environments, to demonstrate the patholog.  The project’s technological stack comprises of **Python** and **PyTorch**.
+This is my personal research project, utilizes the [PyMARL framework](https://github.com/oxwhirl/pymarl) to setup environment Matrix Game and Predator Prey, allows multi-agent play games in these environments, to demonstrate the patholog.  The project’s technological stack comprises of **Python** and **PyTorch**.
 
 I show the influence of the relative overgeneralization pathology for the VDN and QMIX algorithms, a phenomenon where an agent’s behavior becomes overly influenced by the actions of its teammates, leading to suboptimal decision-making. Then I modified these algorithm to address the pathology.
 
