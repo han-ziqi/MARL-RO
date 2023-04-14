@@ -1,34 +1,11 @@
-```diff
-
-```
-
-### This is a branch from PyMARL framework
-
-```
-
-```
-
-## Python MARL framework
-
-PyMARL is [WhiRL](http://whirl.cs.ox.ac.uk)'s framework for deep multi-agent reinforcement learning and includes implementations of the following algorithms:
-
-- [**QMIX**: QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1803.11485)
-- [**COMA**: Counterfactual Multi-Agent Policy Gradients](https://arxiv.org/abs/1705.08926)
-- [**VDN**: Value-Decomposition Networks For Cooperative Multi-Agent Learning](https://arxiv.org/abs/1706.05296) 
-- [**IQL**: Independent Q-Learning](https://arxiv.org/abs/1511.08779)
-- [**QTRAN**: QTRAN: Learning to Factorize with Transformation for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1905.05408)
-
-PyMARL is written in PyTorch and uses [SMAC](https://github.com/oxwhirl/smac) as its environment.
-
----
-
 ## About this Project
 
-During the multi-agent Reinforcement Learning Process, it might be affected by a pathology called relative overgeneralization (RO). In joint action space, when sub-optimal Nash equilibrium are more preferred than optimal Nash equilibrium, the pathology of RO may occur.
+This is my personal research project, utilizes the PyMARL framework to setup environment Matrix Game and Predator Prey, allows multi-agent play games in these environments, to demonstrate the patholog.  The project’s technological stack comprises of **Python** and **PyTorch**.
 
-This project used PyMARL framework to setup environment **Matrix Game** and **Predator Prey**, allows multi-agent play games in these environments, to demonstrate the patholog. 
+I show the influence of the relative overgeneralization pathology for the VDN and QMIX algorithms, a phenomenon where an agent’s behavior becomes overly influenced by the actions of its teammates, leading to suboptimal decision-making. Then I modified these algorithm to address the pathology.
 
-In the experiments, I demonstrated that the two algorithms, VDN and QMIX, were indeed affected by RO. I then made modifications to the two algorithms within this project. Finally relieved the RO pathology.
+VDN (Value-Decomposition Networks) is a multi-agent reinforcement learning algorithm that decomposes the centralized value function into a sum of individual value functions, enabling agents to make decentralized decisions.
+QMIX (Q-value Mixing) is a variant of VDN that uses a monotonic mixing function to improve the performance of the algorithm.
 
 Here is a structure diagram for better understanding PyMARL
 
